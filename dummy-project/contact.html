@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Northline Studio — Contact Us</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html">Northline</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom: 48px;">
+  <div class="wrap">
+    <p class="kicker">Contact Us</p>
+    <h1>Say hello.</h1>
+    <p>This form doesn't submit anywhere yet — it's a placeholder. Wire it up to your backend or a form service when you're ready.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <form onsubmit="event.preventDefault(); alert('This is a dummy form — connect it to a backend to actually send messages.');">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Jane Doe" required>
+
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="jane@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="What's on your mind?" required></textarea>
+
+      <button class="submit" type="submit">Send message</button>
+    </form>
+
+    <div class="contact-info">
+      <div><strong>Email</strong>hello@northline.example</div>
+      <div><strong>Phone</strong>+1 (555) 010-0100</div>
+      <div><strong>Location</strong>Remote-first</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Northline. Dummy project, for demonstration only.</div>
+</footer>
+
+</body>
+</html>
